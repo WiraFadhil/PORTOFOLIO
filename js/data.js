@@ -15,7 +15,7 @@ const PORTFOLIO = {
     email: "wirafadhil20@gmail.com",
 
     /* ==== PROFILE PHOTO — place the file in the assets/images/profile/ folder ==== */
-    photo: "assets/images/profile/wira.png",
+    photo: "assets/images/profile/wira.webp",
 
     /* Replace 'cv-wira.pdf' with the name of your CV PDF file in the root folder.
        Or use a full URL: "https://drive.google.com/.../cv.pdf" */
@@ -59,7 +59,7 @@ const PORTFOLIO = {
       summary:
         "Problem: residents and neighborhood (RT/RW) officials struggle to manage and monitor complaints/reports manually. Solution: a digital web platform to submit, record, and track village reporting status in real time and in an organized way.",
       tags: ["Python", "Flask", "MongoDB", "JavaScript"],
-      image: "assets/images/project/pelaporanDesa.png",
+      image: "assets/images/project/pelaporanDesa.webp",
       emoji: "🏘️",
       year: "2025",
       role: "Fullstack Developer",
@@ -81,7 +81,7 @@ const PORTFOLIO = {
       title: "Cafe POS System",
       summary: "Problem: cashier transactions and cafe ingredient stock were recorded manually and prone to discrepancies. Solution: a web-based POS system to record orders, manage the menu, and summarize daily sales reports efficiently.",
       tags: ["HTML", "CSS", "Javascript", "Supabase"],
-      image: "assets/images/project/cafeshop.png",
+      image: "assets/images/project/cafeShop.webp",
       emoji: "☕",
       year: "2025",
       role: "Fullstack Developer",
@@ -104,7 +104,7 @@ const PORTFOLIO = {
       summary:
         "An interactive sub-district profile website and information portal for public transparency, news management, public complaints, and real-time presentation of regional statistics.",
       tags: ["Laravel", "Blade", "MySQL", "Tailwind CSS"],
-      image: "assets/images/project/kelurahanProfile.png",
+      image: "assets/images/project/kelurahanProfile.webp",
       emoji: "🏛️",
       year: "2025",
       role: "Fullstack Developer",
@@ -129,7 +129,7 @@ const PORTFOLIO = {
       summary:
         "A Google Workspace-based internship registration portal that integrates forms, automation of applicant data collection, and centralized coordination of activity schedules.",
       tags: ["Google Sites", "Google Sheets", "Google Calendar"],
-      image: "assets/images/project/pendaftaranMagang.png",
+      image: "assets/images/project/pendaftaranMagang.webp",
       emoji: "📝",
       year: "2025",
       role: "Web Developer",
