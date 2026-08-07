@@ -183,16 +183,12 @@ const PORTFOLIO = {
       ],
       photos: [
         {
-          src: "assets/images/internship/magang-1.jpg",
-          caption: "Discussion and development session for the web information system at the Diskominfo Jeneponto office."
+          src: "assets/images/internship/fotoBersamaKadis.webp",
+          caption: "Closing documentation with the Head of Diskominfo Jeneponto during the internship."
         },
         {
-          src: "assets/images/internship/magang-2.jpg",
-          caption: "Presenting and demonstrating local government website features to the Diskominfo team."
-        },
-        {
-          src: "assets/images/internship/magang-3.jpg",
-          caption: "Documentation of internship activities and project coordination with the team."
+          src: "assets/images/internship/sertifikatKominfo.webp",
+          caption: "Internship completion certificate from Dinas Komunikasi dan Informatika Jeneponto."
         }
       ]
     },
@@ -210,12 +206,12 @@ const PORTFOLIO = {
       ],
       photos: [
         {
-          src: "assets/images/internship/magang-4.jpg",
-          caption: "Developing the internship portal and processing data in Microsoft Excel."
+          src: "assets/images/internship/PresentationWebsite.webp",
+          caption: "Presenting the web information system developed for the local government to the Diskominfo team."
         },
         {
-          src: "assets/images/internship/magang-5.jpg",
-          caption: "Designing graphic assets and editing video content for BDPKN events."
+          src: "assets/images/internship/fotoBersamaSubbag.webp",
+          caption: "Photo session with the Head of Subdivision (Subbag) after completing the internship program."
         }
       ]
     },
@@ -232,12 +228,12 @@ const PORTFOLIO = {
       ],
       photos: [
         {
-          src: "assets/images/internship/magang-6.jpg",
-          caption: "Mentoring session and leadership building workshop with BSI Scholarship awardees."
+          src: "assets/images/internship/AwardeeBSI.webp",
+          caption: "BSI Scholarship awardee documentation at a leadership program activity."
         },
         {
-          src: "assets/images/internship/magang-7.jpg",
-          caption: "Participating in community development and social engagement activities."
+          src: "assets/images/internship/mirrorBSI.webp",
+          caption: "Capturing moments during a BSI Scholarship event and activity."
         }
       ]
     },
@@ -254,12 +250,12 @@ const PORTFOLIO = {
       ],
       photos: [
         {
-          src: "assets/images/internship/magang-8.jpg",
-          caption: "GDGoC technical workshop and hands-on web development session."
+          src: "assets/images/internship/Workshop.webp",
+          caption: "Foto Bersama GDGoC UIN Alauddin Makassar team members"
         },
         {
-          src: "assets/images/internship/magang-9.jpg",
-          caption: "Core team discussion and event planning at GDGoC UIN Alauddin Makassar."
+          src: "assets/images/internship/Pengajar.webp",
+          caption: "Pengajar dan mentor GDGoC UIN Alauddin Makassar memberikan workshop pengembangan web kepada peserta komunitas"
         }
       ]
     },
@@ -276,21 +272,21 @@ const PORTFOLIO = {
       ],
       photos: [
         {
-          src: "assets/images/internship/inready-1.jpg",
+          src: "assets/images/internship/inready1.webp",
           caption: "Internal organization coordination and team discussion at Inready Workgroup."
         },
         {
-          src: "assets/images/internship/inready-2.jpg",
+          src: "assets/images/internship/inready2.webp",
           caption: "Work program evaluation session with Inready Workgroup members."
         }
       ]
     }
   ],
 
-  /* ============================================================
-   CERTIFICATES — key certificates
-   ============================================================ */
-  certificates: [
+      /* ============================================================
+       CERTIFICATES — key certificates
+       ============================================================ */
+      certificates: [
     {
       title: "Operator Komputer Madya - Vocational School Graduate Academy (Digital Talent Scholarship 2024)",
       issuer: "BBPSDMP Makassar",
