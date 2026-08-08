@@ -41,7 +41,7 @@ const PORTFOLIO = {
      - highlights : array of key features/advantages (detail page).
      - links : list of project links/files. Can be more than one.
        Available types:
-         "github" | "video" | "gdrive" | "sheet" | "doc" | "image" | "live"
+         "github" | "video" | "gdrive" | "sheet" | "doc" | "image" | "live" | "pdf"
        Suitable for NON-web projects (graphic design, spreadsheets,
        documents, photo galleries on Google Drive, etc.). Example:
          links: [
@@ -49,6 +49,10 @@ const PORTFOLIO = {
            { label: "Spreadsheet",     type: "sheet", url: "https://docs.google.com/spreadsheets/..." },
            { label: "PDF Report",      type: "doc",   url: "https://drive.google.com/..." }
          ]
+     - PDF for AI / Data Specialist projects: put the file inside the
+       assets/pdf/ai/ folder (e.g. assets/pdf/ai/portfolio_food_classification.pdf)
+       and reference it with a local relative path, like:
+         { label: "PDF Report", type: "pdf", url: "assets/pdf/ai/nama_file.pdf" }
      - If a project has no links at all, use links: [] —
        then the button area will not appear at all.
      ============================================================ */
@@ -146,6 +150,32 @@ const PORTFOLIO = {
       links: [
         // If there is no demo video link yet, this section can be left empty or adjusted
         { label: "Demo", type: "video", url: "https://sites.google.com/view/bdpkngowa/home" }
+      ]
+    },
+    {
+      id: 5,
+      title: "Indonesian Food Image Classification",
+      summary:
+        "Problem: recognizing traditional Indonesian dishes from photos is hard for people unfamiliar with local food. Solution: a Deep Learning image classification system that recognizes 20 Indonesian food categories from a photo, built with CNN + transfer learning and deployed as an interactive web app.",
+      tags: ["Python", "TensorFlow", "CNN", "Transfer Learning", "Hugging Face"],
+      image: "assets/images/project/klasifikasiMakanan.png",
+      emoji: "🍛",
+      year: "2026",
+      role: "Data Specialist / AI",
+      description: [
+        "An image classification system for traditional Indonesian food, built on a Convolutional Neural Network (CNN) using a transfer learning approach. The model was trained to recognize 20 categories of Indonesian dishes, ranging from staple meals such as Nasi Goreng, Rendang, and Soto, to street-food snacks such as Cilok, Batagor, Karedok, Ketoprak, and Siomay.",
+        "The main motivation was to build an image recognition system relevant to a local context (Indonesian cuisine) while practicing the full end-to-end machine learning workflow: dataset preparation, model training, performance evaluation, and deployment into a publicly accessible application.",
+        "The model was trained for 20 epochs. The accuracy curve shows consistent improvement on both the training set (reaching around 91–92%) and the validation set (stabilizing around 82–85%), indicating the model successfully learned the visual patterns of each food category without severe overfitting. In line with this, the loss curve shows a sharp decline during the first few epochs before gradually leveling off, confirming the model generalizes reasonably well to unseen data."
+      ],
+      highlights: [
+        "Built an image classification model for 20 Indonesian food classes using CNN with transfer learning (EfficientNetB0/MobileNetV2), achieving an average validation accuracy above 80%.",
+        "Conducted a thorough model evaluation using a confusion matrix and per-class accuracy to understand the model's strengths and limitations.",
+        "Successfully deployed the model as a functional, publicly accessible, real-time web application hosted on Hugging Face Spaces.",
+        "Identified concrete challenges in classifying visually similar foods (e.g. Gado-Gado vs Karedok, Ketoprak vs Kupat Tahu), providing a clear direction for further improvement."
+      ],
+      links: [
+        { label: "PDF Report", type: "pdf", url: "assets/pdf/ai/portfolio_food_classification.pdf" },
+        { label: "Live Demo", type: "live", url: "https://wirafadhil-klasifikasi-makanan.hf.space/" }
       ]
     }
     // {

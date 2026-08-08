@@ -66,6 +66,10 @@ function svgImage() {
   return `<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.09-3.09a2 2 0 0 0-2.82 0L6 21"/></svg>`;
 }
 
+function svgPdf() {
+  return `<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6"/><path d="M9 15v-2h1.5a1.5 1.5 0 0 1 0 3H9v2"/><path d="M13 13h1.25a1.25 1.25 0 0 1 0 2.5H13v2"/><path d="M17.5 13h.5v4"/></svg>`;
+}
+
 function svgExternal() {
   return `<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>`;
 }
@@ -93,6 +97,8 @@ function linkIcon(type) {
     case "image":
     case "gallery":
       return svgImage();
+    case "pdf":
+      return svgPdf();
     case "live":
     case "web":
       return svgExternal();
